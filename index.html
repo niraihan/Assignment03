@@ -42,6 +42,48 @@
             font-family: "Sora", serif;
 
         }
+
+        .rayhan {
+            width: fit-content;
+            height: auto;
+            background-color: none;
+            position: relative;
+            animation-name: example;
+            animation-duration: 40s;
+
+        }
+
+        @keyframes example {
+            0% {
+                
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                
+                left: 200px;
+                top: 400px;
+            }
+
+            75% {
+               
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+               
+                left: 0px;
+                top: 0px;
+            }
+        }
     </style>
 </head>
 
@@ -318,12 +360,12 @@
                     </div>
                 </div>
                 <div
-                    class=" flex items-center justify-center bg-gradient-to-r from-[#078f4f] to-[#960606] max-w-full  px-7 rounded-xl ">
+                    class=" rayhan flex items-center justify-center bg-gradient-to-r from-[#078f4f] to-[#960606] max-w-full  px-7 rounded-xl ">
                     <div>
                         <h4 class="text-white text-2xl">Cute Dog</h4>
-                        <p class="text-orange-800 text-2xl" >Price:$100</p>
+                        <p class="text-orange-800 text-2xl">Price:$100</p>
                     </div>
-                    <div class="flex-1">
+                    <div class="flex-1 ">
                         <img src="./c1-assets/cute-and-happy-dog-png.webp" alt="">
                     </div>
                 </div>
